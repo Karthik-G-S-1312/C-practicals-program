@@ -1,0 +1,23 @@
+Enter number of shared pointer owners: 3
+Enter number of times to use the resource: 2
+----- Manual RAII Smart Pointer -----
+Resource acquired
+Resource is being used
+Resource is being used
+Resource released
+Manual smart pointer destroyed
+
+----- unique_ptr -----
+Resource acquired
+Resource is being used
+Resource is being used
+Resource released
+
+----- shared_ptr -----
+Resource acquired
+Resource is being used
+Resource is being used
+Shared Pointer Count: 3
+Resource released
+
+Program completed successfully.
